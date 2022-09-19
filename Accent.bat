@@ -1,0 +1,1 @@
+docker run --name test-accent --network test-network -e DUMMY_LOGIN_ENABLED=1 -e PORT=4000 -e DATABASE_URL=postgresql://test-user:test-password@test-postgres:5432/test-db?sslmode=disable -p 4000:4000 -d mirego/accent

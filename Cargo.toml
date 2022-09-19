@@ -1,0 +1,16 @@
+[package]
+name = "root-me"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+irc = "0.15.0"
+futures = "0.3.24"
+base64 = "0.13.0"
+flate2 = "1.0.24"
+
+[dependencies.tokio]
+version = "1.21.0"
+features = ["full"]

@@ -1,0 +1,1 @@
+docker run --name test-postgres --network test-network -e POSTGRES_USER=test-user -e POSTGRES_PASSWORD=test-password -e POSTGRES_DB=test-db -p 5432:5432 -d postgres
